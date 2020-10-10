@@ -7,9 +7,13 @@ databases:
 - name: my-mongodb
   type: mongodb
   version: 3.6
+- name: my-pql
+  type: postgresql
+  version: 12
 routers:
 - name: hello
   routes:
   - application_name: simple-example-node-3
     paths:
     - /
+
