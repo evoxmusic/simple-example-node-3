@@ -16,4 +16,3 @@ routers:
   - application_name: simple-example-node-3
     paths:
     - /
-
