@@ -11,7 +11,7 @@ databases:
   type: postgresql
   version: 12
 routers:
-- name: hello
+- name: hello2
   routes:
   - application_name: simple-example-node-3
     paths:
